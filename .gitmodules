@@ -1,3 +1,6 @@
 [submodule "repoProject/Assets/Tools"]
 	path = repoProject/Assets/Tools
 	url = https://github.com/Mystyios/Scripts
+[submodule "Project1/Assets/Tools"]
+	path = Project1/Assets/Tools
+	url = https://github.com/Mystyios/Scripts

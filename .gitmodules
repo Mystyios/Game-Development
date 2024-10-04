@@ -4,3 +4,6 @@
 [submodule "Project1/Assets/Tools"]
 	path = Project1/Assets/Tools
 	url = https://github.com/Mystyios/Scripts
+[submodule "Platformer/Assets/Scripts"]
+	path = Platformer/Assets/Scripts
+	url = https://github.com/Mystyios/ArtisanDream.Tools

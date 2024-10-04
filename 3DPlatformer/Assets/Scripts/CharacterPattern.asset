@@ -16,7 +16,7 @@ MonoBehaviour:
   hAxis: Horizontal
   vAxis: Vertical
   speed: 10
-  gravity: 9
+  gravity: 20
   jumpForce: 1000
   jumpCount: 0
   jumpCountMax: 2

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Game1Settings
   m_EditorClassIdentifier: 
   gameDifficulty: 1
-  gameSoundEffectsVolume: 0.5
+  gameSoundEffectsVolume: 0

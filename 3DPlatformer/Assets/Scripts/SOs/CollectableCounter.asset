@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba0e3e8fe4c91a04f8970fc5178b4390, type: 3}
-  m_Name: Health
+  m_Name: CollectableCounter
   m_EditorClassIdentifier: 
-  value: 1
+  value: 4
   minValue: 0
-  maxValue: 1
+  maxValue: 9999

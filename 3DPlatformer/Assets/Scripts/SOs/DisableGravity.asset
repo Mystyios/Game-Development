@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0e3e8fe4c91a04f8970fc5178b4390, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: 054f38df2e9903d4aac5da611a77a74e, type: 3}
+  m_Name: DisableGravity
   m_EditorClassIdentifier: 
-  value: 1
-  minValue: 0
-  maxValue: 1

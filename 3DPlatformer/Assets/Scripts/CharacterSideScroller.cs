@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterSideScroller : MonoBehaviour
@@ -11,7 +12,9 @@ public class CharacterSideScroller : MonoBehaviour
     private CharacterController controller;
     private Vector3 velocity;
     private int jumpsRemaining;
-
+    
+    public UnityEvent jumpEvent;
+    
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -41,6 +44,7 @@ public class CharacterSideScroller : MonoBehaviour
         {
             if (controller.isGrounded || jumpsRemaining > 0)
             {
+                jumpEvent.Invoke();
                 velocity.y = Mathf.Sqrt(jumpForce * -2 * gravity);
                 jumpsRemaining--;
             }

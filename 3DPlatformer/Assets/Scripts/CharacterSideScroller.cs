@@ -13,7 +13,7 @@ public class CharacterSideScroller : MonoBehaviour
     private Vector3 velocity;
     private int jumpsRemaining;
     
-    public UnityEvent jumpEvent;
+    public UnityEvent jumpEvent, endJumpEvent;
     
     private void Awake()
     {
@@ -37,6 +37,7 @@ public class CharacterSideScroller : MonoBehaviour
         {
             velocity.y = 0;
             jumpsRemaining = maxJumps;
+            endJumpEvent.Invoke();
         }
 
         // Jumping

@@ -16,10 +16,10 @@ public class TextBehaviour : MonoBehaviour
         awakeEvent.Invoke();
     }
     
-    /*public void UpdateText(IntData intDataObj)
+    public void UpdateText(IntData intDataObj)
     {
-        textObj.text = intDataObj.Value.ToString();
-    }*/
+        textObj.text = intDataObj.value.ToString();
+    }
 
     public void UpdateText(string obj)
     {

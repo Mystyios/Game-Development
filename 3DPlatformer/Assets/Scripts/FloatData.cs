@@ -6,7 +6,6 @@ public class FloatData : ScriptableObject
     public float value;
     public float minValue;
     public float maxValue;
-    
     public void SetValue(float num)
     {
         if(num > maxValue)

@@ -22,8 +22,12 @@ public class TriggerEventsBehaviour : MonoEventsBehaviour
     {
         yield return waitForTriggerEnterObj;
         triggerEnterEvent.Invoke();
-        if (triggerEnterAction != null) triggerEnterAction.RaiseNoArgs();
-
+        /*
+        if (triggerEnterAction != null)
+        {
+            triggerEnterAction.RaiseNoArgs();
+        } 
+        */
         if (canRepeat)
         {
             var i = 0;

@@ -39,6 +39,6 @@ public class GameActionHandler : MonoBehaviour
 
     private void OnDestroy()
     {
-        action.RaiseNoArgs = null;
+        //action.RaiseNoArgs = null;
     }
 }
